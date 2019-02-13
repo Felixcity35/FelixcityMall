@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1007804919057",
+    "firebase_url": "https://felixcitymall-d4793.firebaseio.com",
+    "project_id": "felixcitymall-d4793",
+    "storage_bucket": "felixcitymall-d4793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007804919057:android:a9851432ffbcbcd4",
+        "android_client_info": {
+          "package_name": "com.example.felixcity.felixcitymall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007804919057-j6pulttr61mku10fhtks9dffkpa1tph2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.felixcity.felixcitymall",
+            "certificate_hash": "0467998ecbeaabef9045808edfd57c2304e4ecad"
+          }
+        },
+        {
+          "client_id": "1007804919057-vcindu155cn0t9ropl0os7l5gpfjoblq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNUqu28GXy_jS83McjgrWLOkpzx9BARug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007804919057-vcindu155cn0t9ropl0os7l5gpfjoblq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
