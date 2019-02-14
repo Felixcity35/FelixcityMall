@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -30,27 +29,27 @@
 
         <ImageView
             android:id="@+id/t_shirts"
-            android:layout_width="wrap_content"
+            android:layout_width="82dp"
             android:layout_height="82dp"
             android:src="@drawable/tshirts" />
 
 
         <ImageView
             android:id="@+id/sport_t_shirts"
-            android:layout_width="wrap_content"
+            android:layout_width="82dp"
             android:layout_height="wrap_content"
             android:src="@drawable/sports" />
 
         <ImageView
             android:id="@+id/female_dresses"
-            android:layout_width="wrap_content"
+            android:layout_width="84dp"
             android:layout_height="wrap_content"
             android:src="@drawable/female_dresses" />
 
         <ImageView
             android:id="@+id/sweather"
             android:layout_width="wrap_content"
-            android:layout_height="85dp"
+            android:layout_height="88dp"
             android:src="@drawable/sweather" />
 
     </LinearLayout>
