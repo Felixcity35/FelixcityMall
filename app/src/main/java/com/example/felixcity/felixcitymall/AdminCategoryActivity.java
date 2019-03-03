@@ -1,9 +1,10 @@
 package com.example.felixcity.felixcitymall;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class AdminCategoryActivity extends AppCompatActivity {
@@ -12,11 +13,15 @@ public class AdminCategoryActivity extends AppCompatActivity {
     private ImageView glasses,hatsCaps,walletBagspurses,shoes;
     private ImageView headsphonesHandsFree, laptops,watches,mobilePhones ;
 
+    private Button logoutBtn, checkOrderBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_category);
 
+        logoutBtn = findViewById(R.id.admin_logout_btn);
+        checkOrderBtn = findViewById(R.id.check_orders_btn);
         tShirts = findViewById(R.id.t_shirts);
         sportsTShirt =findViewById(R.id.sport_t_shirts);
         femaleDresses = findViewById(R.id.female_dresses);
@@ -29,6 +34,25 @@ public class AdminCategoryActivity extends AppCompatActivity {
         laptops = findViewById(R.id.laptop_pc);
         watches = findViewById(R.id.watches);
         mobilePhones = findViewById(R.id.mobilePhones);
+
+
+        logoutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminCategoryActivity.this,MainActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        checkOrderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(AdminCategoryActivity.this,AdminNewOrdersActivity.class);
+                startActivity(intent);
+            }
+        });
 
         tShirts.setOnClickListener(new View.OnClickListener() {
             @Override

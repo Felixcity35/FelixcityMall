@@ -20,9 +20,22 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
         <activity android:name=".AdminAddNewProductActivity" />
-        <activity android:name=".AdminCategoryActivity"></activity>
+        <activity android:name=".AdminCategoryActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".AdminNewOrdersActivity" />
+        <activity android:name=".AdminUserProductsActivity" />
+        <activity android:name=".SearchProductsActivity"></activity>
     </application>
 
 </manifest>

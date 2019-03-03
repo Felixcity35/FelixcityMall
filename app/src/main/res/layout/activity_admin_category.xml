@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:layout_below="@id/slogan_category"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:id="@+id/t_shirts"
@@ -62,7 +62,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:layout_below="@id/linear1_category_layout"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:id="@+id/glasses"
@@ -103,7 +103,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:layout_below="@id/linear2_category_layout"
-        android:layout_marginTop="45dp">
+        android:layout_marginTop="30dp">
 
         <ImageView
             android:id="@+id/headphone"
@@ -133,8 +133,35 @@
             android:layout_marginTop="6dp"
             />
 
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check New Orders"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
 
 
 </RelativeLayout>
